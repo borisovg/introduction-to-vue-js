@@ -1,0 +1,17 @@
+{
+    "env": {
+        "browser": true,
+        "node": false
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {
+                "ArrayExpression": "off"
+            }
+        ],
+        "no-new": "off",
+        "no-plusplus": "off"
+    }
+}

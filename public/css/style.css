@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.container > div {
+    flex: 50%;
+}
+
+.controls {
+    border: dashed 2px black;
+    margin: 1em 5em;
+    text-align: center;
+}
+
+.controls .counter {
+    font-size: 150%;
+}
+
+.controls button {
+    font-weight: bold;
+    margin: 0 0.5em;
+}
+
+.item {
+    background-color: beige;
+    border: dashed 2px black;
+    margin-right: 1em;
+    padding: 1em;
+}
+
+.item.done {
+    background-color: lightgreen;
+}
